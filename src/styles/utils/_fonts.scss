@@ -1,0 +1,37 @@
+/* -------------------------------------------------------------------------- 
+ * Fonts weights :
+ * --------------------------------------------------------------------------
+ * 100: Thin (Hairline)
+ * 200: Extra Light (Ultra Light)
+ * 300: Light
+ * 400: Regular
+ * 500: Medium
+ * 600: Semi Bold
+ * 700: Bold
+ * 800: Extra Bold (Ultra Bold)
+ * 900: Black (Heavy)
+ * -------------------------------------------------------------------------- */
+
+/* Gotham Pro */
+/* -------------------------------------------------------------------------- */
+
+// Gotham Pro 300: Light
+@include font-face(Gotham Pro, GothamPro/GothamPro-Light, 300, normal, eot woff2 woff ttf svg);
+
+// Gotham Pro 400: Regular
+@include font-face(Gotham Pro, GothamPro/GothamPro, 400, normal, eot woff2 woff ttf svg);
+
+// Roboto 500: Medium
+// @include font-face(Roboto, Roboto/Roboto-Medium, 500, normal, eot woff2 woff ttf svg);
+
+// Roboto 600: Semi Bold
+// @include font-face(Roboto, Roboto/Roboto-SemiBold, 600, normal, eot woff2 woff ttf svg);
+
+// Gotham Pro 700: Bold
+@include font-face(Gotham Pro, GothamPro/GothamPro-Bold, 700, normal, eot woff2 woff ttf svg);
+
+// Roboto 800: Extra Bold (Ultra Bold)
+// @include font-face(Roboto, Roboto/Roboto-Bold, 800, normal, eot woff2 woff ttf svg);
+
+// Roboto 900: Black (Heavy)
+// @include font-face(Roboto, Roboto/Roboto-Bold, 900, normal, eot woff2 woff ttf svg);

@@ -1,0 +1,18 @@
+
+include ../utils/mixins
+block variables
+
+doctype html
+html(lang="en" dir="ltr")
+	head
+		include patrials/head
+	body(class=pageClass)
+		include ../layout/header
+		main.site-content(id="fullpage" role="main")
+			block content
+		include ../layout/footer
+		//- script(src="libraries/fullPage-3.0.8/scrolloverflow.min.js")
+		//- script(src="libraries/fullPage-3.0.8/fullpage.min.js")
+		script(src="js/libraries.min.js")
+		script(src="js/script.js")
+		block scripts

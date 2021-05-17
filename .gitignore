@@ -1,0 +1,14 @@
+.pki
+.quarantine
+.idea
+.tmb
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.git
+node_modules
+dist
+lint.yml
+package-lock.json
+smacss.yml
